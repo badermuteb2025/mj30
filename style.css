@@ -1,0 +1,38 @@
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    color: #cd2e18;
+}
+ body{
+   margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+} 
+.container{
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+gap: 50px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+p {
+    font-size: 28px;
+    font-family: "Press Start 2P", serif;
+    color: #cd2e18
+}
+a {
+    color: white;
+    text-decoration: none;
+}
